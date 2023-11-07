@@ -5,52 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algorithms</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        h2 {
-            margin-top: 20px;
-        }
-
-        h3 {
-            margin-top: 10px;
-        }
-
-        ol {
-            list-style-type: decimal;
-            margin-left: 20px;
-        }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>ALGORITHMIST~24</h1>
-
+    <h1 id="title" style="display: none;">ALGORITHMIST~24</h1>
+    <div id="algorithms-container"></div>
+    <script src="script.js"></script>
+    
     <h2>List of Algorithms</h2>
+
+    <div class="algorithm-container">
 
     <ol>
         <li>
@@ -62,6 +27,7 @@
                 <li><a href="https://www.youtube.com/watch?v=NPZn9jBrX8U">YouTube Video 2</a></li>
             </ul>
         </li>
+        
         <li>
             <strong>Edit distance:</strong> Given two strings str1 and str2 of length M and N respectively and below operations that can be performed on str1. Find the minimum number of edits (operations) to convert ‘str1‘ into ‘str2‘. It is used in many applications, such as text comparison and spell checking.
             <ul>
@@ -541,6 +507,6 @@
             </ul>
         </li>
     </ol>
-    
+    </div>
                                 
     
