@@ -135,7 +135,7 @@ h1::after {
 
 
 
- @media screen and (min-width: 500px) {
+ @media screen and (min-width: 200px) {
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
