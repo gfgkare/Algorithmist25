@@ -20,6 +20,48 @@
         background: #fff;
         color: #3e3c3c;
     }
+    header {
+        box-shadow: 0 0 5px rgba(30, 30, 30, 0.616);
+        background-color: #fff !important;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #logo-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+    
+    #site-title {
+        color: #3e3c3c;
+        font-size: 1.5em;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #2F8D46;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
     
     #intro-container {
         position: fixed;
