@@ -1,23 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     setTimeout(function() {
-//         document.getElementById("title").style.display = "block";
-//         document.body.style.opacity = 1;
-//     }, 1000);
-
-//     const algorithmsContainer = document.getElementById("algorithms-container");
-
-
-//     algorithms.forEach(function(algorithm, index) {
-//         setTimeout(function() {
-//             const algorithmDiv = document.createElement("div");
-//             algorithmDiv.className = "algorithm";
-//             algorithmDiv.textContent = algorithm;
-//             algorithmsContainer.appendChild(algorithmDiv);
-//             algorithmDiv.style.opacity = 1;
-//         }, (index + 1) * 1000); // Delay each algorithm by 1 second
-//     });
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
     const algorithmsContainer = document.getElementById("algorithms-container");
 
@@ -29,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("intro-container").style.display = "none";
         // Remove the class to enable hover and transition after intro
         algorithmsContainer.classList.remove("disable-hover-transition");
-    }, 2000); // Display for 2 seconds
+    }, 3000); // Display for 2 seconds
 
     // Delay the display of title and opacity of body
     setTimeout(function () {
@@ -52,6 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // Use a timeout to delay the appearance of each algorithm
         setTimeout(function () {
             algorithmDiv.style.opacity = 1;
-        }, (index + 1) * 1000); // Delay each algorithm by 1 second
+        }, (index + 1) * 3000); // Delay each algorithm by 1 second
     });
 });
