@@ -21,6 +21,32 @@ body {
     z-index: 1000;
 }
 
+#college-logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+#intro-text {
+    display: flex;
+    align-items: center;
+}
+
+#are, #you, #ready {
+    opacity: 0;
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 h1 {
     text-align: center;
 }
