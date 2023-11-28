@@ -203,7 +203,7 @@
         box-shadow: 0 0 5px rgba(30, 30, 30, 0.616);
         background-color: #fff !important;
         border-radius: 5px;
-        padding: 5px;
+        padding: 2px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -230,9 +230,6 @@
         display: flex;
     }
     
-    nav ul li {
-        margin-right: 5px;
-    }
     
     nav ul li a {
         text-decoration: none;
